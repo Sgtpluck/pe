@@ -12,7 +12,7 @@ def is_prime(n)
 end
 
 i = 0
-x = 1
+x = 2
 while i < 10002
   i+=1 if is_prime(x) == true
   x+=1
